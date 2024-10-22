@@ -1,0 +1,75 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+.imagee {
+  position: absolute;
+  top: 40px;
+  height: 80px;
+  border-radius: 50%;
+}
+.para1 {
+  position: absolute;
+  top: 110px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Inter";
+}
+.para2 {
+  position: absolute;
+  top: 150px;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Inter";
+  color: hsl(75, 94%, 57%);
+}
+.para3 {
+  position: absolute;
+  top: 190px;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Inter";
+  color: white;
+}
+.btns {
+  margin-top: 220px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.btn {
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  border: 0;
+
+  height: 40px;
+  font-weight: 600;
+  font-family: "Inter";
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%;
+}
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
